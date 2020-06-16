@@ -1,0 +1,18 @@
+/*
+  Navigation Bar
+*/
+
+.navbar {
+  margin: px;
+  text-align:center;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  width:100%;
+  overflow: hidden;
+  padding: 10px;
+}
+
+li {
+  display: inline;
+}

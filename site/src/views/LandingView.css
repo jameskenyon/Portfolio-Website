@@ -1,0 +1,114 @@
+/*
+  Landing View Components
+*/
+
+.LandingView {
+  height: 100vh;
+  color: white;
+  background-color: #222534;
+}
+
+#view_block_1 {
+  width:100%;
+  height:25vh;
+}
+
+.name {
+  padding: 10px;
+  position: relative;
+  height:115px;
+  margin: auto;
+  color: white;
+  font-size: 100px;
+  text-align: left;
+}
+
+.forename {
+  width: 600px;
+}
+
+.surname {
+  width: 360px;
+  top: -30px;
+  left: 120px;
+  display: inline-block;
+}
+
+#cursor{
+  position: relative;
+  top: -15px;
+  background-color: #F8C800;
+  width: 8px;
+  height:100px;
+  display: inline-block;
+  left:130px;
+  opacity: 0;
+  animation-name: cursor_animation;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+}
+
+#landing_view_info {
+  width: 600px;
+  position:relative;
+  top: 25px;
+  margin: auto;
+  padding:10px;
+  text-align: left; 
+  letter-spacing: -1px;
+}
+
+#landing_view_footer {
+  position: absolute;
+  width: 100%;
+  bottom: 80px;
+  animation-name: footer_animation;
+  animation-duration: 5s;
+  animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+/* change location of name slighlty depending on the screen height
+   do this first so that mobile device code below is more likely to run */
+@media only screen and (max-height: 900px) {
+  #view_block_1 {
+    height:15vh;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  #view_block_1 {
+    height:10vh;
+  }
+  #landing_view_info {
+    width: 90%;
+    top: 0px;
+  }
+  .name {
+    font-size: 75px;
+    width: 90%;
+    text-align: left;
+    left: 0px;
+  }
+  #landing_view_footer {
+    bottom: 60px;
+  }
+}
+
+/*  
+  Animations
+*/
+
+@keyframes footer_animation {
+  0% {bottom: 80px;}
+  5% {bottom: 75px;}
+  10% {bottom:80px;}
+}
+
+@keyframes cursor_animation {
+  0% {opacity: 0;}
+  50% {opacity: 1;}
+  100% {opacity: 0;}
+}
