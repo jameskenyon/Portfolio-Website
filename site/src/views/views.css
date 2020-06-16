@@ -1,0 +1,48 @@
+/*
+  View Defaults
+*/
+.LandingView, .WorkView, .AboutView, .ContactView {
+  width: 100%;
+  position: relative;
+  padding-top: 20px;
+}
+
+/* White text, blue background */
+.LandingView, .WorkView {
+  color: white;
+  background-color: #222534;
+}
+
+/* Black text, white background */
+.AboutView, .ContactView {
+  color: black;
+  background-color: white;
+}
+
+/*
+  Landing View
+*/
+.LandingView {
+  height: 100vh;
+}
+
+/*
+  About View
+*/
+.AboutView {
+  height: 75vh;  
+}
+
+/*
+  Work View
+*/
+.WorkView {
+  height: 100vh;
+}
+
+/*
+  Contact View
+*/
+.ContactView {
+  height: 30vh;
+}
