@@ -2,6 +2,7 @@ import React from "react";
 
 //media
 import downArrow from '../media/down_arrow.png';
+import logo from '../media/logo.png';
 // styles and components
 import './views.css';
 import './LandingView.css';
@@ -54,6 +55,10 @@ class LandingView extends React.Component {
   render() {
     return (
       <div className="View LandingView">
+
+        <div id="logo">
+          <img src={logo} width="40px" height="40px" alt=" " />
+        </div>
 
         <NavigationBar />
 
