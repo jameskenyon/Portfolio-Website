@@ -23,9 +23,19 @@
 .TitleView {
   position: relative;
   font-size: 40px;
-  color: #121625;
   text-align: left;
 }
+
+/* Blue title default */
+#blue {
+  color: #121625;
+}
+
+/* white color */
+#white {
+  color: white;
+}
+
 .TitleView:before {
   color: #F8C800;
   content: "// ";

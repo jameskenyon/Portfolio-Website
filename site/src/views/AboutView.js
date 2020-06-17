@@ -10,11 +10,11 @@ class AboutView extends React.Component {
     return (
       <div className="View AboutView">
 
-        <div className="ContainerView" id="AboutContainer">
+        <div className="ContainerView">
 
           <img src={profile_image} width="150px" height="150px" alt=" " />
 
-          <TitleView text="ABOUT" />
+          <TitleView text="ABOUT" color="blue" />
 
           <div className="intro">
             <p>
