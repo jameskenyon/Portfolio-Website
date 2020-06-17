@@ -35,8 +35,8 @@ class LandingView extends React.Component {
 
         <div id="landing_view_info">
           ELECTRONIC AND INFORMATION ENGINEERING UNDERGRADUATE STUDENT
-          WITH A LOVE FOR TECHNOLOGY. PROGRAMMING SINCE THE AGE OF 16 AND
-          STILL GOING STRONG.
+          WITH A LOVE FOR TECHNOLOGY AND DESIGN. PROGRAMMING SINCE THE
+          AGE OF 16 AND STILL GOING STRONG.
         </div>
 
         <div id="landing_view_footer">

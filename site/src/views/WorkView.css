@@ -3,11 +3,43 @@
 */
 
 .WorkView {
-  height: 100vh;
   color: white;
   background-color: #222534;
 }
 
 #WorkContainer {
   margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.work_list {
+  list-style-type: none;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: left;
+  list-style-position: outside;
+}
+
+.work_list_item {
+  font-weight: normal;
+  font-size: 14px;
+  text-align: left;
+}
+
+.projects_table {
+  position: relative;
+  width:100%;
+}
+
+@media only screen and (max-width:600px) {
+  #WorkContainer {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width:850px) {
+  .projects_table {
+    display: none;
+  }
 }

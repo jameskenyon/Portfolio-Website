@@ -73,7 +73,7 @@
   bottom: 8vh;
   animation-name: footer_animation;
   animation-duration: 3s;
-  animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  animation-timing-function: ease-in-out;
   animation-delay: 2s;
   animation-iteration-count: infinite;
 }
