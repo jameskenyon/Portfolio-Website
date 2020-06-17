@@ -8,6 +8,7 @@ import TitleView from './components/TitleView';
 import facebook from '../media/facebook.png';
 import linkedin from '../media/linkedin.png';
 import pinterest from '../media/pinterest.png';
+import github from '../media/github.png';
 
 class ContactView extends React.Component {
   render() {
@@ -35,6 +36,10 @@ class ContactView extends React.Component {
             <a href="https://www.pinterest.co.uk/jpjk7/boards/">
               <img className="social_image" src={pinterest} width="40px" alt=" " />
             </a>
+            <a href="https://github.com/jameskenyon">
+              <img className="social_image" src={github} width="40px" alt=" " />
+            </a>
+
           </div>
 
           <div id="email_label">
