@@ -3,11 +3,40 @@
 */
 
 .ContactView {
-  height: 30vh;
   color: black;
   background-color: white;
 }
 
 #ContactContainer {
-  margin-top: 20px;
+  margin-top: 15px;
+  margin-bottom: 60px;
+}
+
+.social_links {
+  margin-top: 10px;
+}
+
+.social_image {
+  margin-left: 20px;
+}
+
+#email_label {
+  font-weight: normal;
+  margin-top: 30px;
+}
+
+#email_link:link {
+  font-weight: normal;
+  color: black;
+}
+
+#copyright_label {
+  margin-top: 30px;
+  font-weight: normal;
+}
+
+@media only screen and (max-width:600px) {
+  #ContactContainer{
+    margin-top: 0px;
+  }
 }
