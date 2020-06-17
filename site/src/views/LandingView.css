@@ -70,7 +70,7 @@
 #landing_view_footer {
   position: absolute;
   width: 100%;
-  bottom: 80px;
+  bottom: 8vh;
   animation-name: footer_animation;
   animation-duration: 3s;
   animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
@@ -78,6 +78,27 @@
   animation-iteration-count: infinite;
 }
 
+/*  
+  Animations
+*/
+
+@keyframes footer_animation {
+  0% {bottom: 8vh;}
+  5% {bottom: 7vh;}
+  10% {bottom:8vh;}
+}
+
+@keyframes cursor_animation {
+  0% {opacity: 0;}
+  50% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+/*
+  Adjustments for different screen sizes
+*/
+
+/* IPad */
 /* change location of name slighlty depending on the screen height
    do this first so that mobile device code below is more likely to run */
 @media only screen and (max-height: 900px) {
@@ -86,37 +107,30 @@
   }
 }
 
+/* Phone */
 @media only screen and (max-width:600px) {
+  #logo {
+    visibility: hidden;
+  }
   #view_block_1 {
     height:10vh;
-  }
-  #landing_view_info {
-    width: 90%;
-    top: 0px;
   }
   .name {
     font-size: 75px;
     width: 90%;
-    text-align: left;
+    text-align: center;
     left: 0px;
+  }
+  .surname {
+    top: -60px;
+  }
+  #landing_view_info {
+    width: 90%;
+    top: -20px;
+    text-align: center;
   }
   #landing_view_footer {
     bottom: 60px;
+    animation-name: none;
   }
-}
-
-/*  
-  Animations
-*/
-
-@keyframes footer_animation {
-  0% {bottom: 80px;}
-  5% {bottom: 75px;}
-  10% {bottom:80px;}
-}
-
-@keyframes cursor_animation {
-  0% {opacity: 0;}
-  50% {opacity: 1;}
-  100% {opacity: 0;}
 }
