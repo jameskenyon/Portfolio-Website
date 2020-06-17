@@ -13,6 +13,20 @@
   padding: 10px;
 }
 
-li {
+#nav_li {
   display: inline;
+}
+
+/*
+  Title View
+*/
+.TitleView {
+  position: relative;
+  font-size: 40px;
+  color: #121625;
+  text-align: left;
+}
+.TitleView:before {
+  color: #F8C800;
+  content: "// ";
 }

@@ -3,7 +3,64 @@
 */
 
 .AboutView {
-  height: 75vh;  
   color: black;
-  background-color: white;
+}
+
+#AboutContainer {
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.intro {
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.about_column {
+  position: relative;
+  float: left;
+  width:32.56%;
+  margin-top: 0px;
+  margin-right: 5px;
+}
+
+.about_list {
+  list-style-type: disc;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: left;
+  list-style-position: outside;
+}
+
+.future_ideas {
+  float: left;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width:800px) {
+  #AboutContainer {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .about_column {
+    width:100%;
+  }
+  .TitleView {
+    margin-top: 35px;
+  }
+  #open_bracket_phone:after {
+    font-weight: bold;
+    color: #F8C800;
+    content: "{";
+  }
+  #close_bracket_phone:after {
+    font-weight: bold;
+    color: #F8C800;
+    content: "}";
+  }
 }
