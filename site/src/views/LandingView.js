@@ -7,50 +7,9 @@ import logo from '../media/logo.png';
 import './views.css';
 import './LandingView.css';
 import NavigationBar from './components/NavigationBar';
+import TypingElement from './components/TypingElement';
 
 class LandingView extends React.Component {
-
-  /*
-    Pass in the forename and surname to be displayed and save current state
-    (the name that is currently being displayed on the screen)
-  */
-  constructor(props) {
-    super(props);
-    this.state = {
-      forename: "",
-      surname: "",
-      i: 0,
-    }
-  }
-
-  /*
-    Handle the typing animation when the view loads.
-  */
-  handleTyping = () => {
-    if (this.state.i < this.props.forename.length) {
-      this.setState({
-        forename: this.state.forename + this.props.forename[this.state.i],
-        i: this.state.i + 1
-      });
-      setTimeout(this.handleTyping, 100);
-    } else {
-      if (this.state.i < this.props.forename.length + this.props.surname.length) {
-        this.setState({
-          surname: this.state.surname +
-            this.props.surname[this.state.i - this.props.forename.length],
-          i: this.state.i + 1
-        });
-        setTimeout(this.handleTyping, 100);
-      }
-    }
-  }
-
-  /* 
-    When the component loads, begin the typing animation
-  */
-  componentDidMount() {
-    setTimeout(this.handleTyping, 500);
-  }
 
   render() {
     return (
@@ -65,11 +24,11 @@ class LandingView extends React.Component {
         <div id="view_block_1"></div>
 
         <div className="name forename" id="forename">
-          {this.state.forename}
+          <TypingElement word="JAMES" initalDelay="200" />
         </div>
 
         <div className="name surname" id="surname">
-          {this.state.surname}
+          <TypingElement word="KENYON" initialDelay="600" />
         </div>
 
         <div id="cursor"></div>
