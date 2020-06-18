@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import './components.css';
+import "./components.css";
 
-class TitleView extends React.Component {
+export default class TitleView extends React.Component {
   render() {
     return (
       <div className="TitleView" id={this.props.color}>
@@ -11,5 +11,3 @@ class TitleView extends React.Component {
     );
   }
 }
-
-export default TitleView;

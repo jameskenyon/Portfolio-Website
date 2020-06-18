@@ -28,18 +28,21 @@
 
 .projects_table {
   position: relative;
-  width:100%;
+  table-layout: fixed;
+  width: 100%;
 }
 
-@media only screen and (max-width:600px) {
+td.break {
+  word-break: break-all;
+}
+
+#project_link:link {
+  font-weight: normal;
+}
+
+@media only screen and (max-width: 600px) {
   #WorkContainer {
-    margin-top: 20px;
-    margin-bottom: 40px;
-  }
-}
-
-@media only screen and (max-width:850px) {
-  .projects_table {
-    display: none;
+    margin-top: 0px;
+    margin-bottom: 20px;
   }
 }

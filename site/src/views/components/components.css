@@ -4,11 +4,11 @@
 
 .navbar {
   margin: px;
-  text-align:center;
+  text-align: center;
   color: white;
   font-size: 18px;
   font-weight: bold;
-  width:100%;
+  width: 100%;
   overflow: hidden;
   padding: 10px;
 }
@@ -37,6 +37,6 @@
 }
 
 .TitleView:before {
-  color: #F8C800;
+  color: #f8c800;
   content: "// ";
 }

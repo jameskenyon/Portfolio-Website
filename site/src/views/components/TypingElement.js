@@ -1,7 +1,6 @@
 import React from "react";
 
-class TypingElement extends React.Component {
-
+export default class TypingElement extends React.Component {
   /*
     Pass in the word to be displayed and save current state
     (the name that is currently being displayed on the screen) also the
@@ -12,7 +11,7 @@ class TypingElement extends React.Component {
     this.state = {
       word: "",
       i: 0,
-    }
+    };
   }
 
   /* 
@@ -29,19 +28,13 @@ class TypingElement extends React.Component {
     if (this.state.i < this.props.word.length) {
       this.setState({
         word: this.state.word + this.props.word[this.state.i],
-        i: this.state.i + 1
+        i: this.state.i + 1,
       });
       setTimeout(this.handleTyping, 100);
     }
-  }
+  };
 
   render() {
-    return (
-      <div>
-        {this.state.word}
-      </div>
-    );
+    return <div>{this.state.word}</div>;
   }
 }
-
-export default TypingElement;

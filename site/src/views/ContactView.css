@@ -35,8 +35,8 @@
   font-weight: normal;
 }
 
-@media only screen and (max-width:600px) {
-  #ContactContainer{
-    margin-top: 0px;
+@media only screen and (max-width: 600px) {
+  #ContactContainer {
+    margin-top: -10px;
   }
 }
