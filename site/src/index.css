@@ -23,6 +23,14 @@ h2 {
   text-align: left;
 }
 
+h3 {
+  display: inline;
+  font-size: 18px;
+}
+h3:hover {
+  opacity: 60%;
+}
+
 /* Normal text */
 p {
   font-weight: normal;

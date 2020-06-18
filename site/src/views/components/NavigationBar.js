@@ -13,13 +13,13 @@ export default class NavigationBar extends React.Component {
     return (
       <ul className="navbar">
         <li className="nav_li" onClick={() => this.handeClick("about")}>
-          ABOUT //{" "}
+          <h3 className="nav_text">ABOUT</h3> {"//"}
         </li>
         <li className="nav_li" onClick={() => this.handeClick("work")}>
-          WORK //{" "}
+          <h3 className="nav_text"> WORK</h3> {"//"}
         </li>
         <li className="nav_li" onClick={() => this.handeClick("contact")}>
-          CONTACT
+          <h3 className="nav_text"> CONTACT</h3>
         </li>
       </ul>
     );

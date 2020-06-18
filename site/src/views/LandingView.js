@@ -9,6 +9,11 @@ import NavigationBar from "./components/NavigationBar";
 import TypingElement from "./components/TypingElement";
 
 export default class LandingView extends React.Component {
+  handleFooterClick() {
+    document
+      .getElementById("about")
+      .scrollIntoView({ behavior: "smooth", block: "start" });
+  }
   render() {
     return (
       <div className="View LandingView">
@@ -36,7 +41,7 @@ export default class LandingView extends React.Component {
           STILL GOING STRONG.
         </div>
 
-        <div id="landing_view_footer">
+        <div id="landing_view_footer" onClick={() => this.handleFooterClick()}>
           READ MORE
           <br></br>
           <img src={downArrow} width="25px" height="25px" alt=" " />
