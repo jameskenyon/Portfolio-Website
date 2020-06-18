@@ -12,7 +12,7 @@ import github from "../media/github.png";
 export default class ContactView extends React.Component {
   render() {
     return (
-      <div className="View ContactView">
+      <div className="View ContactView" id="contact">
         <div className="ContainerView" id="ContactContainer">
           <TitleView text="CONTACT" color="blue" />
 

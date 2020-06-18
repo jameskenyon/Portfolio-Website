@@ -9,7 +9,7 @@ import BracketSection from "./components/BracketSection";
 export default class WorkView extends React.Component {
   render() {
     return (
-      <div className="View WorkView">
+      <div className="View WorkView" id="work">
         <div className="ContainerView" id="WorkContainer">
           <TitleView text="WORK" color="white" />
 

@@ -7,7 +7,7 @@ import profile_image from "../media/profile_image.png";
 export default class AboutView extends React.Component {
   render() {
     return (
-      <div className="View AboutView">
+      <div className="View AboutView" id="about">
         <div className="ContainerView">
           <img src={profile_image} width="150px" height="150px" alt=" " />
 

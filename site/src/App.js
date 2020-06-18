@@ -7,15 +7,17 @@ import AboutView from "./views/AboutView";
 import WorkView from "./views/WorkView";
 import ContactView from "./views/ContactView";
 
-function App() {
-  return (
-    <div className="App">
-      <LandingView forename="JAMES" surname="KENYON" />
-      <AboutView />
-      <WorkView />
-      <ContactView />
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        <LandingView forename="JAMES" surname="KENYON" />
+        <AboutView />
+        <WorkView />
+        <ContactView />
+      </div>
+    );
+  }
 }
 
 export default App;
