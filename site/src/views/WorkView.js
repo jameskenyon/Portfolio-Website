@@ -20,10 +20,10 @@ export default class WorkView extends React.Component {
               to apps, focusing primarily on the IOS platform. At University,
               I've had the opportunity to enhance my understanding of computer
               science through the study of electrical engineering. My current
-              project plans, such as learning machine learning, derive from a
-              new found love of mathematics discovered whilst at King's. I look
-              forward to exploring this field further as I dive into the start
-              of my professional career.
+              project plans, such as implementing machine learning to solve a
+              real world problem, derive from a new found love of mathematics
+              discovered whilst at King's. I look forward to exploring this
+              field further as I dive into the start of my professional career.
             </p>
           </div>
 

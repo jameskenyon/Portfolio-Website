@@ -152,6 +152,9 @@
 @media only screen and (max-height: 625px) {
   .name {
     font-size: 60px;
+    width: 90%;
+    text-align: center;
+    left: 0px;
     top: -40px;
   }
   .surname {
@@ -162,5 +165,8 @@
   }
   #landing_view_footer {
     bottom: 100px;
+  }
+  #cursor {
+    visibility: hidden;
   }
 }
