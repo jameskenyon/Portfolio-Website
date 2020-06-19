@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Website/static/css/main.57915680.chunk.css",
+    "main.js": "/Portfolio-Website/static/js/main.a2a314ad.chunk.js",
+    "main.js.map": "/Portfolio-Website/static/js/main.a2a314ad.chunk.js.map",
+    "runtime-main.js": "/Portfolio-Website/static/js/runtime-main.ff1e54d6.js",
+    "runtime-main.js.map": "/Portfolio-Website/static/js/runtime-main.ff1e54d6.js.map",
+    "static/js/2.5eea7d3b.chunk.js": "/Portfolio-Website/static/js/2.5eea7d3b.chunk.js",
+    "static/js/2.5eea7d3b.chunk.js.map": "/Portfolio-Website/static/js/2.5eea7d3b.chunk.js.map",
+    "index.html": "/Portfolio-Website/index.html",
+    "precache-manifest.cdc74492e8c964da850b0cec89dcc83f.js": "/Portfolio-Website/precache-manifest.cdc74492e8c964da850b0cec89dcc83f.js",
+    "service-worker.js": "/Portfolio-Website/service-worker.js",
+    "static/css/main.57915680.chunk.css.map": "/Portfolio-Website/static/css/main.57915680.chunk.css.map",
+    "static/js/2.5eea7d3b.chunk.js.LICENSE.txt": "/Portfolio-Website/static/js/2.5eea7d3b.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Portfolio-Website/static/media/Menlo-Regular.62fa4854.woff",
+    "static/media/logo.png": "/Portfolio-Website/static/media/logo.d7b4a8ef.png",
+    "static/media/profile_image.png": "/Portfolio-Website/static/media/profile_image.03b4a110.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ff1e54d6.js",
+    "static/js/2.5eea7d3b.chunk.js",
+    "static/css/main.57915680.chunk.css",
+    "static/js/main.a2a314ad.chunk.js"
+  ]
+}
