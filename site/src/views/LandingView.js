@@ -26,19 +26,20 @@ export default class LandingView extends React.Component {
         <div id="view_block_1"></div>
 
         <div className="name forename" id="forename">
-          <TypingElement word="JAMES" initalDelay="200" />
+          <TypingElement word="JAMES" initalDelay="500" />
         </div>
 
         <div className="name surname" id="surname">
-          <TypingElement word="KENYON" initialDelay="600" />
+          <TypingElement word="KENYON" initialDelay="700" />
         </div>
 
         <div id="cursor"></div>
 
         <div id="landing_view_info">
-          ELECTRONIC AND INFORMATION ENGINEERING UNDERGRADUATE STUDENT WITH A
-          LOVE FOR TECHNOLOGY AND DESIGN. PROGRAMMING SINCE THE AGE OF 16 AND
-          STILL GOING STRONG.
+          TECHNOLOGY IS THE PRISM THROUGH WHCIH MODERN SOCIETY COMMUNICATES,
+          INNOVATES, AND LEARNS; AS AN ELECTRONICS AND INFORMATION ENGINEERING
+          STUDENT, MY AMBITION IS TO MEANINGFULLY IMPACT PEOPLE'S LIVES THROUGH
+          TECH AND DESIGN.
         </div>
 
         <div id="landing_view_footer" onClick={() => this.handleFooterClick()}>

@@ -15,13 +15,12 @@ export default class AboutView extends React.Component {
 
           <div className="intro">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              I'm always up for a challenge and remain constantly curious -
+              whether that is tearing something down to see how it works or
+              developing projects which rise to meet the ever-changing needs of
+              society. I have created this website to serve as an online
+              portfolio on which to share and showcase my work and to engage
+              with other creators in the tech community.
             </p>
           </div>
 
@@ -29,13 +28,24 @@ export default class AboutView extends React.Component {
             <h2>EDUCATION</h2>
             <ul className="about_list">
               <li>
-                <p> This is great I am looking at this. </p>
+                <p>
+                  <b>King's College London</b>
+                  <p>BENG Electronic and Information Engineering.</p>
+                  <p>Member of the KCL tech society.</p>
+                </p>
               </li>
               <li>
-                <p> Some more bullet points about certain things. </p>
+                <p>
+                  <b>Brunel University London</b>
+                </p>
+                <p>Computer Science Foundation Year</p>
+                <p>Won the student of the year award for my cohort.</p>
               </li>
               <li>
-                <p> Blah Blah </p>
+                <p>
+                  <b>Alton College</b>
+                </p>
+                <p>Mathematics, Physics, Computer Science and Electronics</p>
               </li>
             </ul>
           </div>
@@ -44,13 +54,22 @@ export default class AboutView extends React.Component {
             <h2>INTERESTS</h2>
             <ul className="about_list">
               <li>
-                <p> This is great I am looking at this. </p>
+                <p>Tennis</p>
               </li>
               <li>
-                <p> Some more bullet points about certain things. </p>
+                <p>Cooking</p>
               </li>
               <li>
-                <p> Blah Blah </p>
+                <p>Music - playing guitar</p>
+              </li>
+              <li>
+                <p>American Football</p>
+              </li>
+              <li>
+                <p>Chess</p>
+              </li>
+              <li>
+                <p>Travelling</p>
               </li>
             </ul>
           </div>
@@ -59,13 +78,15 @@ export default class AboutView extends React.Component {
             <h2>VOLUNTEERING</h2>
             <ul className="about_list">
               <li>
-                <p> This is great I am looking at this. </p>
-              </li>
-              <li>
-                <p> Some more bullet points about certain things. </p>
-              </li>
-              <li>
-                <p> Blah Blah </p>
+                <p> GoMAD Tanzania </p>
+                <p>
+                  Raised money before travelling to Tanzania with a small group.
+                </p>
+                <p>
+                  Completed, and aided with, a range of poverty alleviation
+                  projects including building water storage facilities and
+                  goat-sheds.
+                </p>
               </li>
             </ul>
           </div>
@@ -74,13 +95,22 @@ export default class AboutView extends React.Component {
             <h2 id="open_bracket">FUTURE PROJECT IDEAS </h2>
             <ul className="about_list">
               <li>
-                <p> This is great I am looking at this. </p>
+                <p>Learn the basics of data science/machine learning. </p>
               </li>
               <li>
-                <p> Some more bullet points about certain things. </p>
+                <p>Create an food dispenser for use in re-usable food shops.</p>
               </li>
               <li>
-                <p> Blah Blah </p>
+                <p>
+                  An app that aggrigates all of your social media details into
+                  one place.
+                </p>
+              </li>
+              <li>
+                <p>Custom home automation software. </p>
+              </li>
+              <li>
+                <p>Food planner app/website.</p>
               </li>
             </ul>
             <h2 id="close_bracket"> </h2>

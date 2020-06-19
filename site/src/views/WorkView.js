@@ -15,32 +15,44 @@ export default class WorkView extends React.Component {
 
           <div className="intro">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              I programmed my first website at fourteen, and haven't shaken the
+              bug for software development since. From websites I transitioned
+              to apps, focusing primarily on the IOS platform. At University,
+              I've had the opportunity to enhance my understanding of computer
+              science through the study of electrical engineering. My current
+              project plans, such as learning machine learning, derive from a
+              new found love of mathematics discovered whilst at King's. I look
+              forward to exploring this field further as I dive into the start
+              of my professional career.
             </p>
           </div>
 
           <BracketSection heading="EXPERIENCE">
             <ul className="work_list">
               <li>
-                <b>2019</b>
+                <b>2019 Leafless</b>
                 <ul className="work_list_item">
-                  <br></br>
-                  Leafless - this is a job that I had and I did this there will
-                  also be an explanation of what I did in this role.
+                  <p>
+                    Designed and began developing an IOS app for a fin-tech
+                    startup.
+                  </p>
+                  <p>- Created the app using the Swfit progamming language.</p>
+                  <p>- Designed and prototyped all elements of the app's UI.</p>
+                  <p>- Basic web development setting up static webpage.</p>
                 </ul>
               </li>
               <br></br>
               <li>
-                <b>2018</b>
+                <b>2018 Quantinuity/Tellermate</b>
                 <ul className="work_list_item">
-                  <br></br>
-                  Quantinuity - this is a job that I had and I did this
+                  <p>
+                    Contacted to create an API to allow the connection of a
+                    Tellermate device to Apple Mac computers.
+                  </p>
+                  <p>
+                    - API was requested by Apple Inc to use in its US stores.
+                  </p>
+                  <p>- Worked as part of a small team.</p>
                 </ul>
               </li>
             </ul>
@@ -50,11 +62,14 @@ export default class WorkView extends React.Component {
             <ul className="work_list">
               <li>
                 <p>
-                  Explain here about my goal to make my projects open source and
-                  explain why this will help people - starting with this
-                  website. There will then be a table containing a list of some
-                  of the projects that I have completed and a description of
-                  what they did.
+                  Since I was exposed to Git and GitHub whilst at university, I
+                  have made a conscious effort to open source the projects I
+                  have completed since. Growing up, I thought that I needed to
+                  keep my personal projects private to protect them; I have come
+                  to realise that the most powerful thing I can do is share them
+                  with my friends and the community. Starting small, with the
+                  code and design files for this website, I aim to make all my
+                  future personal projects as available as possible.
                 </p>
                 <br></br>
                 <table className="projects_table">

@@ -18,8 +18,9 @@ export default class ContactView extends React.Component {
 
           <div className="intro">
             <p>
-              I’m always up for a challenge blah blah blah please contact me
-              using the details provided for queries.
+              Please use the contact details provided below to get in touch if
+              you have any questions regarding my work, are interested in
+              working on something together or just want to chat tech!
             </p>
           </div>
 
@@ -29,7 +30,7 @@ export default class ContactView extends React.Component {
                 className="social_image"
                 src={facebook}
                 width="40px"
-                alt=" "
+                alt="Facebook"
               />
             </a>
             <a href="https://www.linkedin.com/in/james-kenyon-b0032513a/">
@@ -37,7 +38,7 @@ export default class ContactView extends React.Component {
                 className="social_image"
                 src={linkedin}
                 width="40px"
-                alt=" "
+                alt="LinkedIn"
               />
             </a>
             <a href="https://www.pinterest.co.uk/jpjk7/boards/">
@@ -45,19 +46,23 @@ export default class ContactView extends React.Component {
                 className="social_image"
                 src={pinterest}
                 width="40px"
-                alt=" "
+                alt="Pinterest"
               />
             </a>
             <a href="https://github.com/jameskenyon">
-              <img className="social_image" src={github} width="40px" alt=" " />
+              <img
+                className="social_image"
+                src={github}
+                width="40px"
+                alt="GitHub"
+              />
             </a>
           </div>
 
           <div id="email_label">
             <a id="email_link" href="mailto:james.kenyon08@gmail.com">
               james.kenyon08@gmail.com
-            </a>{" "}
-            | 07508739466
+            </a>
           </div>
 
           <div id="copyright_label">Copyright James Kenyon 2020</div>

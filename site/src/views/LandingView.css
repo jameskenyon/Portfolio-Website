@@ -9,22 +9,22 @@
 }
 
 #logo {
-  width:40px;
-  height:40px;
-  left:42px;
-  top:42px;
+  width: 40px;
+  height: 40px;
+  left: 42px;
+  top: 42px;
   position: absolute;
 }
 
 #view_block_1 {
-  width:100%;
-  height:25vh;
+  width: 100%;
+  height: 25vh;
 }
 
 .name {
   padding: 10px;
   position: relative;
-  height:115px;
+  height: 115px;
   margin: auto;
   color: white;
   font-size: 100px;
@@ -42,14 +42,14 @@
   display: inline-block;
 }
 
-#cursor{
+#cursor {
   position: relative;
   top: -15px;
-  background-color: #F8C800;
+  background-color: #f8c800;
   width: 8px;
-  height:100px;
+  height: 100px;
   display: inline-block;
-  left:130px;
+  left: 130px;
   opacity: 0;
   animation-name: cursor_animation;
   animation-duration: 1s;
@@ -59,11 +59,11 @@
 
 #landing_view_info {
   width: 600px;
-  position:relative;
+  position: relative;
   top: 25px;
   margin: auto;
-  padding:10px;
-  text-align: left; 
+  padding: 10px;
+  text-align: left;
   letter-spacing: -1px;
 }
 
@@ -83,15 +83,27 @@
 */
 
 @keyframes footer_animation {
-  0% {bottom: 8vh;}
-  5% {bottom: 7vh;}
-  10% {bottom:8vh;}
+  0% {
+    bottom: 8vh;
+  }
+  5% {
+    bottom: 7vh;
+  }
+  10% {
+    bottom: 8vh;
+  }
 }
 
 @keyframes cursor_animation {
-  0% {opacity: 0;}
-  50% {opacity: 1;}
-  100% {opacity: 0;}
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 /*
@@ -103,34 +115,52 @@
    do this first so that mobile device code below is more likely to run */
 @media only screen and (max-height: 900px) {
   #view_block_1 {
-    height:15vh;
+    height: 15vh;
   }
 }
 
 /* Phone */
-@media only screen and (max-width:600px) {
+@media only screen and (max-width: 600px) {
   #logo {
     visibility: hidden;
   }
   #view_block_1 {
-    height:10vh;
+    height: 10vh;
   }
   .name {
     font-size: 75px;
     width: 90%;
     text-align: center;
     left: 0px;
+    top: -20px;
   }
   .surname {
-    top: -60px;
+    top: -80px;
   }
   #landing_view_info {
     width: 90%;
-    top: -20px;
+    top: -60px;
     text-align: center;
   }
   #landing_view_footer {
-    bottom: 60px;
+    bottom: 70px;
     animation-name: none;
+  }
+}
+
+/* Very small phone screens */
+@media only screen and (max-height: 625px) {
+  .name {
+    font-size: 60px;
+    top: -40px;
+  }
+  .surname {
+    top: -140px;
+  }
+  #landing_view_info {
+    top: -150px;
+  }
+  #landing_view_footer {
+    bottom: 100px;
   }
 }

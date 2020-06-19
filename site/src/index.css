@@ -116,3 +116,26 @@ td {
     margin-right: 15px;
   }
 }
+
+/* Fonts */
+
+@font-face {
+  font-family: "Menlo";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Menlo Regular"), url("media/Menlo-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Menlo";
+  font-style: normal;
+  font-weight: bold;
+  src: local("Menlo Bold"), url("media/Menlo-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Menlo";
+  font-style: italic;
+  font-weight: normal;
+  src: local("Menlo Italic"), url("media/Menlo-Italic.woff") format("woff");
+}
