@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.ff2c999f.chunk.css",
+    "main.css": "/static/css/main.24bd382e.chunk.css",
     "main.js": "/static/js/main.e571b97f.chunk.js",
     "main.js.map": "/static/js/main.e571b97f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.23041e79.js",
@@ -8,9 +8,9 @@
     "static/js/2.85f5af6b.chunk.js": "/static/js/2.85f5af6b.chunk.js",
     "static/js/2.85f5af6b.chunk.js.map": "/static/js/2.85f5af6b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.79f03928ef03b5b89d8d9ed24e120eeb.js": "/precache-manifest.79f03928ef03b5b89d8d9ed24e120eeb.js",
+    "precache-manifest.9844e037ce2758e26dca152a567c7b11.js": "/precache-manifest.9844e037ce2758e26dca152a567c7b11.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.ff2c999f.chunk.css.map": "/static/css/main.ff2c999f.chunk.css.map",
+    "static/css/main.24bd382e.chunk.css.map": "/static/css/main.24bd382e.chunk.css.map",
     "static/js/2.85f5af6b.chunk.js.LICENSE.txt": "/static/js/2.85f5af6b.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Menlo-Regular.62fa4854.woff",
     "static/media/logo.png": "/static/media/logo.d7b4a8ef.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.23041e79.js",
     "static/js/2.85f5af6b.chunk.js",
-    "static/css/main.ff2c999f.chunk.css",
+    "static/css/main.24bd382e.chunk.css",
     "static/js/main.e571b97f.chunk.js"
   ]
 }
