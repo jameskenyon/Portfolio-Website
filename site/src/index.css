@@ -28,7 +28,7 @@ h3 {
   font-size: 18px;
 }
 h3:hover {
-  opacity: 60%;
+  color: #f8c800;
 }
 
 /* Normal text */
