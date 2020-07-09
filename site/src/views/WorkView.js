@@ -83,8 +83,8 @@ export default class WorkView extends React.Component {
                       <td> Portfolio Website </td>
                       <td>
                         {" "}
-                        Personal website made with ReactJS and deployed with
-                        GitHub pages.{" "}
+                        Personal website made with ReactJS, CSS and HTML
+                        deployed with GitHub pages.{" "}
                       </td>
                       <td className="break">
                         <a
@@ -92,6 +92,22 @@ export default class WorkView extends React.Component {
                           href="https://github.com/jameskenyon/Portfolio-Website"
                         >
                           https://github.com/jameskenyon/Portfolio-Website{" "}
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td> Elenco </td>
+                      <td>
+                        {" "}
+                        Shopping list app written in Swift with SwiftUI.
+                        Currently live on the app store.{" "}
+                      </td>
+                      <td className="break">
+                        <a
+                          id="project_link"
+                          href="https://github.com/jameskenyon/Elenco"
+                        >
+                          https://github.com/jameskenyon/Elenco{" "}
                         </a>
                       </td>
                     </tr>
