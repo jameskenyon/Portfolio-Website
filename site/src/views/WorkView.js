@@ -30,6 +30,18 @@ export default class WorkView extends React.Component {
           <BracketSection heading="EXPERIENCE">
             <ul className="work_list">
               <li>
+                <b>2021 Undergraduate Research Fellow</b>
+                <ul className="work_list_item">
+                  <p>
+                    Carried out research to enable implementation of mathematical optimisation methods into traditional life cycle assessment (LCA).
+                  </p>
+                  <p>- Started development of a Python application to present a user-facing solution.</p>
+                  <p>- Explored mathematical optimisation techniques.</p>
+                  <p>- Exposure to LCA methods.</p>
+                  <p>- Presented work to large companies and potential investors.</p>
+                </ul>
+              </li>
+              <li>
                 <b>2019 Leafless</b>
                 <ul className="work_list_item">
                   <p>
@@ -78,6 +90,28 @@ export default class WorkView extends React.Component {
                       <th> Name </th>
                       <th> Description </th>
                       <th> Github </th>
+                    </tr>
+                    <tr>
+                      <td> WildfireML </td>
+                      <td>
+                        {" "}
+                        Predictive wildfire susceptibility model programmed in python. {" "}
+                      </td>
+                      <td>
+                        Coming Soon
+                         {" "}
+                      </td>
+                    </tr>
+                    <tr>
+                      <td> Malcom </td>
+                      <td>
+                        {" "}
+                        Mathematical life cycle optimisation application programmed in python. {" "}
+                      </td>
+                      <td>
+                        Coming Soon
+                         {" "}
+                      </td>
                     </tr>
                     <tr>
                       <td> Portfolio Website </td>

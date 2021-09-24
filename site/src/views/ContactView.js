@@ -65,7 +65,7 @@ export default class ContactView extends React.Component {
             </a>
           </div>
 
-          <div id="copyright_label">Copyright James Kenyon 2020</div>
+          <div id="copyright_label">Copyright James Kenyon 2021</div>
         </div>
       </div>
     );

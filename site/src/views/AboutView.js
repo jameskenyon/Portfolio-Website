@@ -29,9 +29,17 @@ export default class AboutView extends React.Component {
             <ul className="about_list">
               <li>
                 <p>
+                  <b>St Andrews Univeristy</b>
+                  <p>MSc Artificial Intelligence.</p>
+                  <p>- Active member of computing society.</p>
+                </p>
+              </li>
+              <li>
+                <p>
                   <b>King's College London</b>
                   <p>BENG Electronic and Information Engineering.</p>
-                  <p>Member of the KCL tech society.</p>
+                  <p>- Awarded First Class Honours degree, achieved a grade of 87 overall.</p>
+                  <p>- Award-winning individual project (graded 94) focused on the application of machine learning to predict the susceptibility of land in the UK to wildfires.</p>
                 </p>
               </li>
               <li>
@@ -39,7 +47,7 @@ export default class AboutView extends React.Component {
                   <b>Brunel University London</b>
                 </p>
                 <p>Computer Science Foundation Year</p>
-                <p>Won the student of the year award for my cohort.</p>
+                <p>- Won the student of the year award for my cohort.</p>
               </li>
               <li>
                 <p>
@@ -95,10 +103,7 @@ export default class AboutView extends React.Component {
             <h2 id="open_bracket">FUTURE PROJECT IDEAS </h2>
             <ul className="about_list">
               <li>
-                <p>Learn the basics of data science/machine learning. </p>
-              </li>
-              <li>
-                <p>Create an food dispenser for use in re-usable food shops.</p>
+                <p>Continue persuing research into data science/machine learning, particulary with a focus on the environment. </p>
               </li>
               <li>
                 <p>
