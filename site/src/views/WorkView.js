@@ -48,7 +48,7 @@ export default class WorkView extends React.Component {
                     Designed and began developing an IOS app for a fin-tech
                     startup.
                   </p>
-                  <p>- Created the app using the Swfit progamming language.</p>
+                  <p>- Created the app using the Swift programming language.</p>
                   <p>- Designed and prototyped all elements of the app's UI.</p>
                   <p>- Basic web development setting up static webpage.</p>
                 </ul>
@@ -90,6 +90,36 @@ export default class WorkView extends React.Component {
                       <th> Name </th>
                       <th> Description </th>
                       <th> Github </th>
+                    </tr>
+                    <tr>
+                      <td> Article-Maestro </td>
+                      <td>
+                        {" "}
+                        SwiftUI iOS app to help people learn German. {" "}
+                      </td>
+                      <td className="break">
+                        <a
+                          id="project_link"
+                          href="https://github.com/jameskenyon/Article-Maestro"
+                        >
+                          https://github.com/jameskenyon/Article-Maestro{" "}
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td> AI Automated GitHub Insights </td>
+                      <td>
+                        {" "}
+                        Analytic and predictive model to assess the health and outlook of GitHub projects within a software ecosystem. {" "}
+                      </td>
+                      <td className="break">
+                        <a
+                          id="project_link"
+                          href="https://github.com/jameskenyon/cs5099-ai-automated-git-insights"
+                        >
+                          https://github.com/jameskenyon/cs5099-ai-automated-git-insights{" "}
+                        </a>
+                      </td>
                     </tr>
                     <tr>
                       <td> WildfireML </td>

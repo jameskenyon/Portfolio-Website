@@ -37,9 +37,10 @@ export default class LandingView extends React.Component {
 
         <div id="landing_view_info">
           TECHNOLOGY IS THE PRISM THROUGH WHICH MODERN SOCIETY COMMUNICATES,
-          INNOVATES, AND LEARNS; AS AN ELECTRONICS AND INFORMATION ENGINEERING
-          STUDENT, MY AMBITION IS TO MEANINGFULLY IMPACT PEOPLE'S LIVES THROUGH
-          TECH AND DESIGN.
+          INNOVATES, AND LEARNS; AS A GRADUATE OF BOTH ELECTRONICS AND
+          INFORMATION ENGINEERING AND ARTIFICIAL INTELLIGENCE, MY
+          AMBITION IS TO MEANINGFULLY IMPACT PEOPLE'S LIVES THROUGH TECH AND
+          DESIGN.
         </div>
 
         <div id="landing_view_footer" onClick={() => this.handleFooterClick()}>

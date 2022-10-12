@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutView.css";
+import BracketSection from "./components/BracketSection";
 import TitleView from "./components/TitleView";
 
 import profile_image from "../media/profile_image.png";
@@ -24,36 +25,59 @@ export default class AboutView extends React.Component {
             </p>
           </div>
 
+          <BracketSection heading="Education">
+            <ul className="work_list">
+              <li>
+                <b>University of St Andrews (2021-2022)</b>
+                <ul className="work_list_item">
+                  <p>
+                    MSc Artificial Intelligence.
+                  </p>
+                  <p>- Grade: Distinction.</p>
+                  <p>- Placed on the Deans' List for academic excellence during the 2021/2 academic session.</p>
+                  <p>- Dissertation focused on the implementation of artificial intelligence techniques to identify user patterns and assess the health of GitHub repositories within a software ecosystem.</p>
+                </ul>
+              </li>
+              <li>
+                <b>King's College London (2018-2021)</b>
+                <ul className="work_list_item">
+                  <p>
+                    BEng Electronic and Information Engineering.
+                  </p>
+                  <p>- Grade: First Class Honours.</p>
+                  <p>- Overall score: 87/100.</p>
+                  <p>- Recipient of the King's College London Engineers Association (KCLEA) medal. </p>
+                  <p>- Final year project (graded 94/100), focused on the application of machine learning techniques to the assessment of wildfire susceptibility in the UK.</p>
+                </ul>
+              </li>
+              <li>
+                <b>Brunel University London (2017-2018)</b>
+                <ul className="work_list_item">
+                  <p>
+                    Computer Science with AI Foundation Year.
+                  </p>
+                  <p>- Grade: A*.</p>
+                  <p>- Won the Foundation Student of the Year award for academic excellence.</p>
+                </ul>
+              </li>
+            </ul>
+          </BracketSection>
+
           <div className="about_column">
-            <h2>EDUCATION</h2>
+            <h2>FUTURE IDEAS</h2>
             <ul className="about_list">
               <li>
-                <p>
-                  <b>St Andrews Univeristy</b>
-                  <p>MSc Artificial Intelligence.</p>
-                  <p>- Active member of computing society.</p>
-                </p>
+                <p>Continue perusing research into data science/machine learning, particularly with a focus on the environment.</p>
               </li>
               <li>
-                <p>
-                  <b>King's College London</b>
-                  <p>BENG Electronic and Information Engineering.</p>
-                  <p>- Awarded First Class Honours degree, achieved a grade of 87 overall.</p>
-                  <p>- Award-winning individual project (graded 94) focused on the application of machine learning to predict the susceptibility of land in the UK to wildfires.</p>
-                </p>
+                <p>An app that aggregates all of your social media details into
+                  one place.</p>
               </li>
               <li>
-                <p>
-                  <b>Brunel University London</b>
-                </p>
-                <p>Computer Science Foundation Year</p>
-                <p>- Won the student of the year award for my cohort.</p>
+              <p>Food planner app/website.</p>
               </li>
               <li>
-                <p>
-                  <b>Alton College</b>
-                </p>
-                <p>Mathematics, Physics, Computer Science and Electronics</p>
+                <p>Custom home automation software.</p>
               </li>
             </ul>
           </div>
@@ -97,28 +121,6 @@ export default class AboutView extends React.Component {
                 </p>
               </li>
             </ul>
-          </div>
-
-          <div className="future_ideas">
-            <h2 id="open_bracket">FUTURE PROJECT IDEAS </h2>
-            <ul className="about_list">
-              <li>
-                <p>Continue persuing research into data science/machine learning, particulary with a focus on the environment. </p>
-              </li>
-              <li>
-                <p>
-                  An app that aggrigates all of your social media details into
-                  one place.
-                </p>
-              </li>
-              <li>
-                <p>Custom home automation software. </p>
-              </li>
-              <li>
-                <p>Food planner app/website.</p>
-              </li>
-            </ul>
-            <h2 id="close_bracket"> </h2>
           </div>
         </div>
       </div>
