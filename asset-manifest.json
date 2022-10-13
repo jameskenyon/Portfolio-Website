@@ -1,11 +1,25 @@
 {
-  "main.css": "static/css/main.530132f5.css",
-  "main.css.map": "static/css/main.530132f5.css.map",
-  "main.js": "static/js/main.438fc36a.js",
-  "main.js.map": "static/js/main.438fc36a.js.map",
-  "static/media/Menlo-Bold.woff": "static/media/Menlo-Bold.ec8f52a0.woff",
-  "static/media/Menlo-Italic.woff": "static/media/Menlo-Italic.076a8705.woff",
-  "static/media/Menlo-Regular.woff": "static/media/Menlo-Regular.62fa4854.woff",
-  "static/media/logo.png": "static/media/logo.d7b4a8ef.png",
-  "static/media/profile_image.png": "static/media/profile_image.03b4a110.png"
+  "files": {
+    "main.css": "/static/css/main.24bd382e.chunk.css",
+    "main.js": "/static/js/main.5993e060.chunk.js",
+    "main.js.map": "/static/js/main.5993e060.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.23041e79.js",
+    "runtime-main.js.map": "/static/js/runtime-main.23041e79.js.map",
+    "static/js/2.85f5af6b.chunk.js": "/static/js/2.85f5af6b.chunk.js",
+    "static/js/2.85f5af6b.chunk.js.map": "/static/js/2.85f5af6b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a769cd72e2e48317c82f063e41be09ef.js": "/precache-manifest.a769cd72e2e48317c82f063e41be09ef.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.24bd382e.chunk.css.map": "/static/css/main.24bd382e.chunk.css.map",
+    "static/js/2.85f5af6b.chunk.js.LICENSE.txt": "/static/js/2.85f5af6b.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Menlo-Regular.62fa4854.woff",
+    "static/media/logo.png": "/static/media/logo.d7b4a8ef.png",
+    "static/media/profile_image.png": "/static/media/profile_image.03b4a110.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.23041e79.js",
+    "static/js/2.85f5af6b.chunk.js",
+    "static/css/main.24bd382e.chunk.css",
+    "static/js/main.5993e060.chunk.js"
+  ]
 }
